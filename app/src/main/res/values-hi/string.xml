@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="name_two">खंड</string>
+    <string name="name_three">फसल का नाम
+</string>
+    <string name="name_four">कृषि का नाम</string>
+    <string name="name_five">मूल्य</string>
+    <string name="name_six">मात्रा</string>
+    <string name="name_seven">विवरण</string>
+    <string name="name_eight">मूल्य देखें</string>
+    <string name="name_nine">तस्वीर</string>
+    <string name="name_ten">उत्पाद अपलोड करें</string>
+
+
+    <string name="crop_group">खंड</string>
+    <string name="crop">फसल का नाम</string>
+    <string name="quantity">मात्रा</string>
+    <string name="Price">मूल्य देखें</string>
+</resources>

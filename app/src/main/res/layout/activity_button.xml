@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.harshul.efarming.buttonActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UTILITIES"
+        android:id="@+id/utility"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textSize="40dp"/>
+
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="450dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/weather"
+            android:layout_width="220dp"
+            android:layout_gravity="center"
+            android:layout_height="75dp"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:text="weather Forecast"
+            android:layout_marginTop="150dp"
+            android:textStyle="bold"
+            android:onClick="weather"
+            android:background="#FF9933"
+            android:textColor="#ffffff"/>
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:id="@+id/quality_check"
+            android:layout_gravity="center"
+            android:layout_width="220dp"
+            android:layout_height="75dp"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:text="Quality check"
+            android:textStyle="bold"
+            android:onClick="quality"
+            android:background="#000080"
+            android:textColor="#ffffff"/>
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:id="@+id/online_market"
+            android:layout_width="220dp"
+            android:layout_height="75dp"
+            android:layout_gravity="center"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:onClick="market"
+            android:text="online_market"
+            android:textStyle="bold"
+            android:background="#138808"
+            android:textColor="#ffffff"
+
+            />
+
+    </LinearLayout>
+</RelativeLayout>

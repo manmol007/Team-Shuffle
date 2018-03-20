@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item android:title="रबी फसल"/>
+        <item
+            android:id="@+id/wheat"
+
+            android:title="गेहूँ" />
+        <item
+            android:id="@+id/barley"
+
+            android:title="जौ" />
+        <item
+            android:id="@+id/Gram"
+            android:title="चना" />
+        <item
+            android:id="@+id/Masur"
+            android:title="मसूर" />
+
+        <item
+            android:id="@+id/Mustard"
+            android:title="सरसों" />
+
+        <item
+            android:id="@+id/Toria"
+            android:title="तोरिया" />
+
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item android:title="खरीफ फसल"/>
+
+
+        <item
+            android:id="@+id/paddy"
+
+            android:title="धान" />
+        <item
+            android:id="@+id/jowar"
+
+            android:title="ज्वार" />
+        <item
+            android:id="@+id/Bajra"
+            android:title="बाजरा" />
+        <item
+            android:id="@+id/Maize"
+            android:title="मक्का" />
+
+        <item
+            android:id="@+id/Ragi"
+            android:title="ख़मीर" />
+
+        <item
+            android:id="@+id/Arhar"
+            android:title="अरहर" />
+
+        <item
+            android:id="@+id/Moong"
+            android:title="मूंग" />
+
+
+        <item
+            android:id="@+id/Urad"
+
+            android:title="उड़द" />
+        <item
+            android:id="@+id/Cotton"
+            android:title="कपास" />
+        <item
+            android:id="@+id/Groundnut"
+            android:title="मूंगफली" />
+        <item
+            android:id="@+id/Sunflower"
+            android:title="सूरजमुखी" />
+
+        <item
+            android:id="@+id/Seasum"
+            android:title="तिल" />
+
+        <item
+            android:id="@+id/Soyabean"
+            android:title="सोयाबीन" />
+
+        <item
+            android:id="@+id/Nigerseed"
+            android:title="नाइजर बीज" />
+
+    </group>
+</menu>

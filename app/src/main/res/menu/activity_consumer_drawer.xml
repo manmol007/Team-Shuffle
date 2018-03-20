@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+    <group android:checkableBehavior="single">
+        <item android:title="RABI crops"/>
+        <item
+            android:id="@+id/wheat"
+
+            android:title="wheat" />
+        <item
+            android:id="@+id/barley"
+
+            android:title="barley" />
+        <item
+            android:id="@+id/Gram"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Gram" />
+        <item
+            android:id="@+id/Masur"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Masur" />
+
+        <item
+            android:id="@+id/Mustard"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Masturd" />
+
+        <item
+            android:id="@+id/SaffLower"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Safflower" />
+
+        <item
+            android:id="@+id/Toria"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Toria" />
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item android:title="KHARIF crops"/>
+
+
+        <item
+            android:id="@+id/paddy"
+
+            android:title="paddy" />
+        <item
+            android:id="@+id/jowar"
+
+            android:title="jowar" />
+        <item
+            android:id="@+id/Bajra"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Bajra" />
+        <item
+            android:id="@+id/Maize"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Maize" />
+
+        <item
+            android:id="@+id/Ragi"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Ragi" />
+
+        <item
+            android:id="@+id/Arhar"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Arhar" />
+
+        <item
+            android:id="@+id/Moong"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Moong" />
+
+
+        <item
+            android:id="@+id/Urad"
+
+            android:title="Urad" />
+        <item
+            android:id="@+id/Cotton"
+            android:title="Cotton" />
+        <item
+            android:id="@+id/Groundnut"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Groundnut" />
+        <item
+            android:id="@+id/Sumflower"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Sunflower" />
+
+        <item
+            android:id="@+id/Seasum"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Seasame" />
+
+        <item
+            android:id="@+id/Soyabean"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Soyabean" />
+
+        <item
+            android:id="@+id/Nigerseed"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="NigerSeed" />
+
+    </group>
+</menu>

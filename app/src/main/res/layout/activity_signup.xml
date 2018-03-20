@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#ffffff"
+    android:layout_height="match_parent"
+    tools:context="com.example.anmol.efarming.signup">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView1">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/layout1">
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:background="#FF9933"
+                android:text="Register"
+                android:textSize="25dp"
+                android:textColor="#000080"
+                android:textStyle="bold"
+                />
+
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:id="@+id/typeRadioGroup"
+                android:layout_height="wrap_content"
+                android:weightSum="2"
+                android:layout_below="@+id/textView"
+                android:layout_marginTop="25dp">
+
+                <RadioButton
+                    android:id="@+id/Buttonfarmer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:tag="0"
+                    android:text="Farmer"
+                    android:textColor="#000080"/>
+
+                <RadioButton
+                    android:id="@+id/buttonconsumer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:tag="1"
+                    android:layout_marginLeft="240dp"
+                    android:layout_marginTop="-32dp"
+                    android:text="Consumer"
+                    android:textColor="#000080"/>
+
+            </RadioGroup>
+
+
+
+            <TextView
+                android:id="@+id/Nametextview"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Name"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="33dp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/typeRadioGroup"
+                android:textColor="#000080"
+                />
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="2dp"
+                android:layout_below="@+id/typeRadioGroup"
+                android:id="@+id/TextInputName">
+
+                <EditText
+                    android:id="@+id/NameditText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="150dp"
+                    android:ems="10"
+
+                    android:gravity="center"
+                    android:hint="Enter your Name"
+                    android:inputType="textPersonName"
+                    android:textColor="#000080"
+                    android:textColorHint="#000080" />
+            </android.support.design.widget.TextInputLayout>
+
+
+            <TextView
+                android:id="@+id/MobileNumbertextview"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/Nametextview"
+                android:layout_marginTop="38dp"
+                android:layout_marginLeft="10dp"
+                android:text="Mobile Number"
+                android:textColor="#000080"/>
+
+            <TextView
+                android:id="@+id/AadharCardNumbertextview"
+                android:layout_width="100dp"
+                android:layout_marginLeft="10dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/MobileNumbertextview"
+                android:layout_marginTop="38dp"
+                android:text="Adhar Card No."
+                android:textColor="#000080"/>
+
+            <TextView
+                android:id="@+id/GSTNumbertextview"
+                android:layout_width="100dp"
+                android:layout_marginTop="38dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/AadharCardNumbertextview"
+                android:text="GST No."
+                android:layout_marginLeft="10dp"
+                android:textColor="#000080" />
+
+            <TextView
+                android:id="@+id/Statetextview"
+                android:layout_below="@id/GSTNumbertextview"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="38dp"
+                android:text="State"
+                android:layout_marginLeft="10dp"
+                android:textColor="#000080"/>
+
+            <TextView
+                android:id="@+id/Citytextview"
+                android:layout_below="@id/Statetextview"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="38dp"
+                android:text="City"
+                android:layout_marginLeft="10dp"
+                android:textColor="#000080"/>
+
+            <TextView
+                android:id="@+id/streettextview"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_below="@id/Citytextview"
+                android:layout_marginTop="38dp"
+                android:text="Street"
+                android:textColor="#000080"/>
+
+
+            <TextView
+                android:id="@+id/Passwordtextview"
+                android:layout_width="100dp"
+                android:layout_marginLeft="10dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/streettextview"
+                android:layout_marginTop="38dp"
+                android:text="Password"
+                android:textColor="#000080"/>
+
+
+
+
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/TextInputName"
+                android:id="@+id/ContactInputName"
+                >
+
+
+
+                <EditText
+                    android:id="@+id/ContacteditText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="150dp"
+                    android:ems="10"
+                    android:textColorHint="#000080"
+                    android:inputType="number"
+                    android:hint="Enter your Contact"
+                    android:gravity="center"
+                    android:textColor="#000080"
+                    android:maxLength="10"
+                    android:maxLines="1"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/adharinputlayout"
+                android:layout_below="@+id/ContactInputName">
+
+                <EditText
+                    android:id="@+id/AAdharCardNumbereditText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="150dp"
+                    android:ems="10"
+                    android:textColorHint="#000080"
+                    android:inputType="number"
+                    android:hint="Enter your Adhar"
+                    android:maxLines="1"
+                    android:maxLength="12"
+                    android:gravity="center"
+                    android:textColor="#000080"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/gstinputlayout"
+                android:layout_below="@+id/adharinputlayout">
+
+
+                <EditText
+                    android:id="@+id/GstNumberdeditText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="150dp"
+                    android:layout_below="@+id/adharinputlayout"
+                    android:ems="10"
+                    android:maxLength="15"
+                    android:maxLines="1"
+                    android:textColorHint="#000080"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:hint="Enter your GST"
+                    android:textColor="#000080" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/stateinputname"
+                android:layout_below="@+id/gstinputlayout">
+
+
+                <EditText
+                    android:id="@+id/StateeditText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="150dp"
+                    android:ems="10"
+                    android:textColorHint="#000080"
+                    android:inputType="textPersonName"
+                    android:hint="Enter your State Name"
+                    android:gravity="center"
+                    android:textColor="#000080"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/cityinputlayout"
+                android:layout_below="@+id/stateinputname">
+
+
+                <EditText
+                    android:id="@+id/CityeditText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="150dp"
+                    android:layout_marginTop="340dp"
+                    android:ems="10"
+                    android:textColorHint="#000080"
+                    android:inputType="textPersonName"
+                    android:hint="Enter your City"
+                    android:gravity="center"
+                    android:textColor="#000080"/>
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/streetinput"
+                android:layout_below="@+id/cityinputlayout">
+
+
+                <EditText
+                    android:id="@+id/StreetNameeditText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="#000080"
+                    android:ems="10"
+                    android:layout_marginLeft="150dp"
+                    android:gravity="center"
+                    android:inputType="textPersonName"
+                    android:hint="Enter your Street Name"
+                    android:textColor="#000080" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:passwordToggleEnabled="true"
+                android:id="@+id/passwordinput"
+                android:layout_below="@+id/streetinput"
+                android:layout_toRightOf="@+id/Passwordtextview">
+
+                <android.support.design.widget.TextInputEditText
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter Your Password"
+                    android:id="@+id/PasswordeditText"
+                    android:inputType="textPassword"
+                    android:layout_marginLeft="50dp"
+
+
+
+                    />
+
+
+            </android.support.design.widget.TextInputLayout>
+
+
+            <Button
+                android:id="@+id/submit"
+                android:layout_marginTop="20dp"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:background="#138808"
+                android:onClick="ssubmit"
+                android:text="Submit"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="18dp"
+                android:layout_below="@+id/passwordinput"
+                android:textStyle="bold" />
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

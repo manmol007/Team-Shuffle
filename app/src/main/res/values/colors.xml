@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF9933</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="color">#767578</color>
+    <color name="colorTex">#765</color>
+    <color name="trans">#30ffff</color>
+    <color name="cb_errorRed">#e40000</color>
+</resources>
